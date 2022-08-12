@@ -1,0 +1,52 @@
+*{
+    scroll-behavior: smooth;
+}
+
+.header{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+
+.nav{
+    display: flex;
+    width: 100%;
+    background-color: aqua;
+    position: fixed;
+}
+
+.navBar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+    list-style: none;
+}
+
+.smoothscroll{
+    text-decoration: none;
+}
+
+.row-banner{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 11% 0;
+}
+
+.hello-world{
+    font-size: 2rem;
+}
+
+.responsive-headline{
+    font-size: 5rem;
+}
+
+.socials-header{
+    display: flex;
+    flex-direction: row;
+    width: 10rem;
+    justify-content: space-between;
+}

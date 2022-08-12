@@ -1,0 +1,26 @@
+#resume{
+    width: 100%;
+}
+
+.row-skill{
+    margin: 10% 0;
+    padding: 2% 0;
+    background-color:brown;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.numerated-skills{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 1% 10% 5% 10%;
+}
+
+.skill{
+    margin: 2%;
+}
