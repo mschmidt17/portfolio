@@ -10,22 +10,32 @@
 
 .nav{
     display: flex;
+    justify-content: space-between;
     width: 100%;
-    background-color: aqua;
+    background: linear-gradient(135deg,#008a83de,rgba(172, 255, 47, 0.795));
     position: fixed;
+    padding: 0.4%;
+    box-shadow: 0px 14px 20px -12px rgba(82,62,62,0.75);
 }
 
 .navBar{
     display: flex;
     flex-direction: row;
     align-items: center;
-    justify-content: space-evenly;
-    width: 100%;
+    justify-content: space-around;
+    width: 35%;
     list-style: none;
 }
 
 .smoothscroll{
     text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.smoothscroll:hover{
+    color: rgba(0, 0, 0, 0.644);
+    transform: sacle(1.1);
 }
 
 .row-banner{
@@ -33,7 +43,7 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin: 11% 0;
+    margin: 14% 0 2% 0;
 }
 
 .hello-world{
@@ -42,11 +52,30 @@
 
 .responsive-headline{
     font-size: 5rem;
+    background-image: linear-gradient(135deg,#008a83,greenyellow);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    margin-bottom: 2%;
+    letter-spacing: 1.5px;
 }
 
 .socials-header{
     display: flex;
+    align-items: center;
+    justify-content: space-around;
     flex-direction: row;
-    width: 10rem;
-    justify-content: space-between;
+    width: 15%;
+    padding-right: 2%;
+}
+
+.social{
+    display: flex;
+    text-decoration: none;
+    font-size: 1.4rem;
+    color: black;
+}
+
+.social:hover{
+    color: rgba(0, 0, 0, 0.644);
 }

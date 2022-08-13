@@ -6,17 +6,19 @@ export default function Projects({resumeData}){
     return (
       <section id="portfolio">
         <div className="row-projects">
-            <h1>Recent projects: </h1>
+            <span className='titulo-span'> Proyectos </span>
             <div className="portfolio-wrapper">
               {
                 resumeData.portfolio && resumeData.portfolio.map((item)=>{
                   return(
                       <div className="item-wrap">
-                          <img src={`${item.imgurl}`} className="item-img"  width='300'/>
+                          <img src={`${item.imgurl}`} className="item-img" width='300'/>
                           <div className="overlay">
-                              <h5>{item.name}</h5>
-                              <p>{item.description}</p>
-                              <a href={item.deploy}>Check it out!</a>
+                              <h3>{item.name}</h3>
+                              <p className='text-project'>{item.description}</p> 
+                              <span className='button1'>
+                                <a className='deploy' target="_blank" rel="noreferrer" href={item.deploy}>VER</a>
+                              </span>
                           </div>
                       </div>
                   )

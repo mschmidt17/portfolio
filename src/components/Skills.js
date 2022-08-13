@@ -6,9 +6,7 @@ export default function Skills({resumeData}) {
         <section id="resume">
 
             <div className="row-skill">
-                <div className="title-skills">
-                    <h1><span>Skills</span></h1>
-                </div>
+                 <span className='titulo-span'>Tecnologías</span>
 
                 <div className="numerated-skills">
                         {

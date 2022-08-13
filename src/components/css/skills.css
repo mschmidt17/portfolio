@@ -3,9 +3,8 @@
 }
 
 .row-skill{
-    margin: 10% 0;
+    margin: 6% 0;
     padding: 2% 0;
-    background-color:brown;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -22,5 +21,14 @@
 }
 
 .skill{
-    margin: 2%;
+    margin: 5%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+}
+
+.skill:hover{
+    transform: scale(1.1);
 }

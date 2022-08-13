@@ -1,5 +1,6 @@
 import React from 'react';
 import './css/navBar.css'
+import {BsLinkedin, BsGithub, BsInstagram} from "react-icons/bs"
 
 export default function NavBar ({resumeData}) {
 
@@ -8,23 +9,23 @@ export default function NavBar ({resumeData}) {
       <header id="home" className='header'>
          <nav id="nav-wrap" className='nav'>
             <ul id="nav" className="navBar">
-                <li className="current"><a className="smoothscroll" href="#home">Home</a></li>
-                <li><a className="smoothscroll" href="#about">About</a></li>
-                <li><a className="smoothscroll" href="#resume">Skills</a></li>
-                <li><a className="smoothscroll" href="#portfolio">Projects</a></li>
-                <li><a className="smoothscroll" href="#contact">Contact</a></li>
+                <li className="current"><a className="smoothscroll" href="#home">Inicio</a></li>
+                <li><a className="smoothscroll" href="#about">Sobre mi</a></li>
+                <li><a className="smoothscroll" href="#resume">Tecnologías</a></li>
+                <li><a className="smoothscroll" href="#portfolio">Proyectos</a></li>
             </ul>
+            <div className='socials-header'>
+                <a className='social' href='https://www.linkedin.com/in/matias-schmidt1/' target='_blank' rel='noreferrer'> <BsLinkedin/> </a>
+                <a className='social' href='https://github.com/mschmidt17' target='_blank' rel='noreferrer'> <BsGithub/> </a>
+                <a className='social' href='https://www.instagram.com/mati_schmidt1/' target='_blank' rel='noreferrer'> <BsInstagram/> </a>
+            </div>
          </nav>
 
          <div className="row-banner">
-               <h2 className='hello-world'>Hello World!</h2>
-               <h1 className="responsive-headline">I am {resumeData.name}</h1>
-               <h2 style={{color:'#fff', fontFamily:'sans-serif '}}>{resumeData.role}</h2>
+               <h2 className='hello-world'>Hola 👋, soy</h2>
+               <span className="responsive-headline"> {resumeData.name}</span>
+               <h2 style={{fontFamily:'sans-serif '}}>{resumeData.role}</h2>
                <br></br>
-              <div className='socials-header'>
-                <a href='https://www.linkedin.com/in/matias-schmidt1/' target='_blank' rel='noreferrer'>LINKEDIN</a>
-                <a href='https://github.com/mschmidt17' target='_blank' rel='noreferrer'>GITHUB</a>
-              </div>
          </div>
 
          <p className="scrolldown">
