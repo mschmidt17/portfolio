@@ -32,3 +32,9 @@
 .skill:hover{
     transform: scale(1.1);
 }
+
+@media all and (max-width: 500px) {
+    .row-skill{
+        margin: 15% 0;
+    }
+}

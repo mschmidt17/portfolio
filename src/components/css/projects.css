@@ -110,3 +110,9 @@
     -webkit-transition: all 0.35s;
     transition: all 0.35s;
 }
+
+@media all and (max-width: 500px) {
+    .row-projects{
+        margin: 15% 0;
+    }
+}

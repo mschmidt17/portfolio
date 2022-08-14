@@ -20,9 +20,26 @@
     font-weight: bolder;
     color: black;
     margin: 12%;
-
 }
 
 .mail:hover{
     color: #008a83;
+}
+
+.socials-header-contact{
+    display: none;
+}
+
+@media all and (max-width: 500px) {
+    .socials-header-contact{
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width: 8rem;
+        margin: 5% 0;
+    }
+
+    .mail{
+        margin: 12% 10% 12% 0;
+    }
 }
