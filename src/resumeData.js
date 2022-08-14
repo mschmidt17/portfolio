@@ -80,7 +80,7 @@ let resumeData = {
         "deploy":"https://food-ltlwsbunm-mschmidt17.vercel.app/"
       },
       {
-        "name":"50 Days 50 Projects",
+        "name":"50 Pojects 50 Days",
         "description":"Challenge de 50 dias donde se realizan mini proyectos utilizando distintas tegnologias. ",
         "imgurl":"https://pbs.twimg.com/media/EoHlB65XcAAZKHw.jpg:large",
         "deploy":"https://github.com/mschmidt17?tab=repositories"

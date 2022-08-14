@@ -30,8 +30,20 @@
     margin: 5% 1%;
     width: fit-content;
     background-color: linear-gradient(145deg, #e2e8ec, #fff);
-    box-shadow: 5px 4px 20px #cbcbcb,5px -4px 20px #fff;
     height: 24rem;
+    top: 0;
+    left: 0;
+    transition: 0.5s;
+    position: relative;
+    box-shadow: 5px 4px 20px #cbcbcb,5px -4px 20px #fff;
+    border-radius: 10px; 
+}
+
+.item-wrap:hover {
+    top: -2px;
+    left: -2px;
+    box-shadow: 14px 14px 8px #cbcbcb, 14px -9px 8px #fff;
+    transform: skew(0deg, 4deg);
 }
 
 .deploy{
