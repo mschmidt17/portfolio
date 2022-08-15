@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { useState, useEffect } from 'react';
 import NavBar from './components/NavBar';
 import About from './components/About';
 import Skills from './components/Skills';
@@ -9,19 +9,17 @@ import resumeData from './resumeData';
 import './App.css';
 
 
-class App extends Component {
-  render() {
+export default function App() {
+    const [light, setLight] = useState('light');
+
     return (
-      <div className="App">
-        <NavBar resumeData={resumeData}/>
-        <About resumeData={resumeData}/>
-        <Skills resumeData={resumeData}/>
-        <Projects resumeData={resumeData}/>
-        <Contact resumeData={resumeData}/>
-        <Footer resumeData={resumeData}/>
+      <div className = {`App${light==='light' ? '-light' : '-dark'}`}>
+        <NavBar resumeData={resumeData} light={light} setLight={setLight}/>
+        <About resumeData={resumeData} light={light}/>
+        <Skills resumeData={resumeData} light={light}/>
+        <Projects resumeData={resumeData} light={light}/>
+        <Contact light={light}/>
+        <Footer resumeData={resumeData} light={light}/>
       </div>
     );
-  }
 }
-
-export default App;

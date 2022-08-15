@@ -14,19 +14,34 @@
     justify-content: center;
 }
 
+
 .mail{
     display: flex;
     font-size: 3.5rem;
     font-weight: bolder;
     color: black;
     margin: 12%;
+    margin: 12% 10% 12% 0;
+
 }
 
-.mail:hover{
+.mail-dark{
+    display: flex;
+    font-size: 3.5rem;
+    font-weight: bolder;
+    color: white;
+    margin: 12%;
+    margin: 12% 10% 12% 0;
+}
+
+.mail:hover, .mail-dark:hover{
     color: #008a83;
 }
 
 .socials-header-contact{
+    display: none;
+}
+.socials-header-contact-dark{
     display: none;
 }
 
@@ -39,7 +54,14 @@
         margin: 5% 0;
     }
 
+    .social-dark{
+        color: white;
+    }
+
     .mail{
+        margin: 12% 10% 12% 0;
+    }
+    .mail-dark{
         margin: 12% 10% 12% 0;
     }
 }

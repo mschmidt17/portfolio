@@ -59,6 +59,14 @@
     justify-content: space-evenly;
 }
 
+.overlay-dark{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-evenly;
+    color: white;
+}
+
 .text-project{
     display: flex;
     width: 18rem;

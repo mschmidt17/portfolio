@@ -1,7 +1,7 @@
 import React from 'react';
 import './css/skills.css';
 
-export default function Skills({resumeData}) {
+export default function Skills({resumeData, light}) {
     return (
         <section id="resume">
 
@@ -10,9 +10,9 @@ export default function Skills({resumeData}) {
 
                 <div className="numerated-skills">
                         {
-                        resumeData.skills && resumeData.skills.map((item) => {
+                        resumeData.skills && resumeData.skills.map((item, index) => {
                             return(
-                                <div className='skill'>
+                                <div className={`skill${light==='light' ? '' : '-dark'}`} key={index}>
                                     <img src={item.img} width='90'/>
                                     <span>{item.skillname}</span>
                                 </div>
