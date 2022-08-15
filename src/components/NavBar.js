@@ -33,7 +33,6 @@ export default function NavBar ({resumeData, light, setLight}) {
                     <button className='mode'style={{'backgroundColor':'white'}} onClick={handleClick}><BsSunFill/></button>
                 }
             </div>
-
          </nav>
 
          <div className={`row-banner${light==='light' ? '' : '-dark'}`}>
