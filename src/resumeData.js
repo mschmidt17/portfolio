@@ -1,3 +1,8 @@
+import express from "./express.png";
+import cssLogo from "./css-logo.png";
+import sequelize from "./sequelize.png";
+
+
 let resumeData = {
     "name": "Matías Schmidt",
     "role": "Programador Full Stack 💻",
@@ -25,7 +30,7 @@ let resumeData = {
       },
       {
         "skillname":"CSS",
-        "img":"https://img2.freepng.es/20180420/xwe/kisspng-web-development-cascading-style-sheets-css3-comput-css-5ada20be146fc2.8807141415242446700837.jpg"
+        "img": cssLogo
       },
       {
         "skillname":"JavaScript",
@@ -45,11 +50,11 @@ let resumeData = {
       },
       {
         "skillname":"ExpressJS",
-        "img":"https://img2.freepng.es/20180711/yfe/kisspng-express-js-node-js-javascript-mongodb-node-js-5b461d28173fc6.1251392115313216400952.jpg"
+        "img": express
       },
       {
         "skillname":"Sequelize",
-        "img":"https://assets.stickpng.com/images/58482ee4cef1014c0b5e4a75.png"
+        "img": sequelize
       },
       {
         "skillname":"PostgreSQL",
@@ -68,12 +73,6 @@ let resumeData = {
         "deploy":"https://wallabyapp.vercel.app/"
       },
       {
-        "name":"DOGS APP",
-        "description":"Página web donde podrás crear, buscar, filtrar y ver detalles referidos a razas de perros.",
-        "imgurl":"https://raw.githubusercontent.com/mschmidt17/DOGS/main/PI.1.png",
-        "deploy":"https://dogs-app-five-beryl.vercel.app/"
-      },
-      {
         "name":"FOODS APP",
         "description":"Página web donde podrás crear, buscar, filtrar y ver detalles referidos a recetas de comidas.",  
         "imgurl":"https://raw.githubusercontent.com/mschmidt17/PI-FOOD/master/Foto2.png",
@@ -84,7 +83,13 @@ let resumeData = {
         "description":"Challenge de 50 dias donde se realizan mini proyectos utilizando distintas tegnologias. ",
         "imgurl":"https://pbs.twimg.com/media/EoHlB65XcAAZKHw.jpg:large",
         "deploy":"https://github.com/mschmidt17?tab=repositories"
-      }
+      },
+      {
+        "name":"DOGS APP",
+        "description":"Página web donde podrás crear, buscar, filtrar y ver detalles referidos a razas de perros.",
+        "imgurl":"https://raw.githubusercontent.com/mschmidt17/DOGS/main/PI.1.png",
+        "deploy":"https://dogs-app-five-beryl.vercel.app/"
+      },
     ],
 }
   
