@@ -90,6 +90,18 @@ let resumeData = {
         "imgurl":"https://raw.githubusercontent.com/mschmidt17/DOGS/main/PI.1.png",
         "deploy":"https://dogs-app-five-beryl.vercel.app/"
       },
+      {
+        "name":"NETFLIX",
+        "description":"Se trata de un proyecto que consiste en el desarrollo un Catálogo de Películas dinámico.",
+        "imgurl":"https://user-images.githubusercontent.com/99290382/210804478-b3cae746-d310-46ef-914f-c858f65a1448.png",
+        "deploy":"https://github.com/mschmidt17/Netflix-challenge"
+      },
+      {
+        "name":"CHALLENGE MELI",
+        "description":"Se trata de un clon de Mercado Libre, en el que consumo datos de su API desde el front-end.",
+        "imgurl":"https://user-images.githubusercontent.com/99290382/210788945-960de16a-9332-40c8-8986-47045c57ca66.png",
+        "deploy":"https://github.com/mschmidt17/Challenge-Mercado-Libre"
+      },
     ],
 }
   
