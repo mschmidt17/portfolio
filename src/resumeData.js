@@ -70,13 +70,13 @@ let resumeData = {
         "name":"NETFLIX",
         "description":"Se trata de un proyecto que consiste en el desarrollo un Catálogo de Películas dinámico.",
         "imgurl":"https://user-images.githubusercontent.com/99290382/210804478-b3cae746-d310-46ef-914f-c858f65a1448.png",
-        "deploy":"https://github.com/mschmidt17/Netflix-challenge"
+        "deploy":"https://netflix-lcwz.vercel.app/"
       },
       {
-        "name":"CHALLENGE MELI",
+        "name":"CLON MELI",
         "description":"Se trata de un clon de Mercado Libre, en el que consumo datos de su API desde el front-end.",
         "imgurl":"https://user-images.githubusercontent.com/99290382/210788945-960de16a-9332-40c8-8986-47045c57ca66.png",
-        "deploy":"https://github.com/mschmidt17/Challenge-Mercado-Libre"
+        "deploy":"https://clon-mercado-libre-ms23.vercel.app/"
       },
       {
         "name":"MEMORY QATAR",
@@ -89,6 +89,18 @@ let resumeData = {
         "description":"Marketplace de NFT en donde podes comprar, vender, y crear tus propios NFTs.",
         "imgurl":"https://raw.githubusercontent.com/mschmidt17/mschmidt17/main/Landing.png",
         "deploy":"https://wallabyapp.vercel.app/"
+      },
+      {
+        "name":"SPOTIFY",
+        "description":"Busca y ordena los albumes del artista que se ingresa en el buscador",
+        "imgurl":"https://i.ibb.co/mC0VJsr/Houlak-home.png",
+        "deploy":"https://github.com/mschmidt17/Houlak"
+      },
+      {
+        "name":"FORM CHALLENGE",
+        "description":"Guarda tu formulario y muestra todos los formularios completados",
+        "imgurl":"https://i.ibb.co/6ZSv9JH/Captura-de-pantalla-45.png",
+        "deploy":"https://greydive-2e644.firebaseapp.com/"
       },
       {
         "name":"FOODS APP",
