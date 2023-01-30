@@ -97,7 +97,7 @@ let resumeData = {
         "deploy":"https://github.com/mschmidt17/Houlak"
       },
       {
-        "name":"FORM CHALLENGE",
+        "name":"FORMULARIO",
         "description":"Guarda tu formulario y muestra todos los formularios completados",
         "imgurl":"https://i.ibb.co/6ZSv9JH/Captura-de-pantalla-45.png",
         "deploy":"https://greydive-2e644.firebaseapp.com/"
