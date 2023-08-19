@@ -5,7 +5,7 @@ import sequelize from "./sequelize.png";
 
 let resumeData = {
     "name": "Matías Schmidt",
-    "role": "Programador Full Stack 💻",
+    "role": "Frontend Developer 💻",
     "linkedinId":"matias-schmidt1",
     "socialLinks":[
         {
@@ -19,7 +19,7 @@ let resumeData = {
           "className":"fa fa-github"
         }
       ],
-    "aboutme":"Soy un desarrollador full stack que actualmente reside en Argentina. Me inicie en el mundo de la programacion de manera autodidacta y luego realice un bootcamp de más de 800 hs de estudio intensivo que me ayudo a fortalecer mis conocimientos.",
+    "aboutme":"Soy un desarrollador Frontend que actualmente reside en Argentina. Me inicie en el mundo de la programacion de manera autodidacta y luego realice un bootcamp de más de 800 hs de estudio intensivo que me ayudo a fortalecer mis conocimientos.",
     "aboutme2":"Soy una persona con disciplina, persistencia y actitud que busca sumar experiencia en el sector IT, que disfruta del trabajo en equipo y la resolución de problemas. Me encuentro en búsqueda de nuevos desafíos, estoy abierto a todas las oportunidades que me permitan crecer y seguir capacitándome. ",
     "address":"Argentina",
     "website":"link del portfolio deployado",

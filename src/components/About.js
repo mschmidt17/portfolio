@@ -1,6 +1,6 @@
 import React from 'react';
 import './css/about.css';
-import pdf from "../matias-SchmidtCV.pdf";
+import pdf from "../matias-schmidtCV.pdf";
 
 export default function About ({resumeData, light}) {
 
