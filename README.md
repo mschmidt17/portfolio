@@ -3,4 +3,4 @@
 Este es mi portfolio realizado con las siguientes tecnologias: JavaScript, React, HTML Y CSS.
 
 
-https://matias-schmidt.vercel.app/
+https://mschmidt17.github.io/portfolio
